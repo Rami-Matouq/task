@@ -1,0 +1,58 @@
+.resumeCard{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  background: white;
+  border-radius: 6px;
+  margin: auto;
+   padding:25px;
+   margin-bottom: 15px;
+   .icon{margin-right: 15px;}
+  .iconContainer{
+  width:30px;
+  height: 30px;
+
+}
+.resumeInfo{
+  width:100%;
+.block{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+p{
+  display: flex;
+  align-items: center;
+background: #F5F5F5;
+height: 40px;
+border-radius: 50px;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+.expanded{
+  color: grey;
+  cursor:pointer;
+  
+}
+.expanded:hover{  font-weight: 700;}
+
+  .expander{color:#1855BF;
+cursor:pointer;
+}
+.expander:hover{  font-weight: 700;
+
+}
+    .themed-container{
+      align-items: center;
+
+      p{margin:4px;}
+    }
+  .name{
+    color:#1855BF;
+    font-weight: 700;
+  }
+}
+}

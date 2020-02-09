@@ -1,0 +1,70 @@
+.MainContainer {
+
+background-color: #F4F4F4;
+color:#766B6D;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 200px;
+.uploadContainer{
+  width:100%;
+    max-width: 1000px;
+    padding-top:15px;
+  span{
+    font-weight: 600;
+  }
+  .form{
+    width:100%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+      padding:30px;
+
+    .bot{
+      width:100%;
+      max-width: 950px;
+      margin:auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+margin-top:20px;
+button{background: #0847A6;
+border: none;
+font-size: 14px;
+padding-left:25px;
+padding-right:25px;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+    }
+  }
+  .bottomSide{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p{margin-bottom: 4px;
+    font-weight: 600;
+  padding-top:30px;}
+    .row{
+      width:100%;
+      max-width: 550px;
+      margin:0;
+      display: flex;
+      justify-content: flex-end;
+
+
+    }
+  }
+
+  .progress{
+    background: #5B626B;
+    height: .7rem;
+.progress-bar{
+  background: #0156B3;
+}
+}
+}
+}

@@ -1,0 +1,15 @@
+.ResumesMainCont{
+  width:100%;
+  justify-content: center;
+  margin-top:25px;;
+  display: flex;
+  flex-direction: row-reverse;
+  .resumesContainer{
+  width:100%;
+  max-width: 750px;
+  background:#EDEDED;
+  padding:10px;
+  border-radius: 6px;
+
+}
+}
